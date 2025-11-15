@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1; url=mtasa://15.235.181.136:27012">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTA:SA Redirect</title>
+
+    <style>
+        body {
+            background: #0d0d0d;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #ff2a2a;
+        }
+
+        p {
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: white;
+            background: #ff2a2a;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            background: #ff4444;
+        }
+
+        .loader {
+            width: 45px;
+            height: 45px;
+            border: 4px solid #444;
+            border-top: 4px solid #ff2a2a;
+            border-radius: 50%;
+            animation: spin 0.9s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader"></div>
+    <h1>Connecting to Server...</h1>
+    <p>Your MTA:SA should open automatically.</p>
+    <a href="mtasa://15.235.181.136:27012">Join Now</a>
+
+</body>
+</html>
